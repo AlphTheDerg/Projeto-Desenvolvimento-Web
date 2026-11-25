@@ -13,13 +13,13 @@
 }
 
 :root {
-  --primary-color: #23A6F0;
-  --secondary-color: #B2E3FF;
-  --bg-color: #FFFFF;
+  --primary-color: #2C4E6D;
+  --secondary-color: #6B8FB8;
+  --bg-color: #FFFF;
   --text-color: #252B42;
   --second-text-color: #737373;
   --light-gray: #F8F8F8;
-  --light-text-color: #FFFFF;
+  --light-text-color: #FFFF;
 
   --ff-sans: "Montserrat", system-ui, sans-serif;
   --fw-base: 400;

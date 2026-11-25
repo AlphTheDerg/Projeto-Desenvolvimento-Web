@@ -57,3 +57,18 @@
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
 }
+
+@media (width >= 1280px) {
+    .container {
+        --max-width: 1050px;
+    }
+
+    .desktop-only {
+        display: initial;
+    }
+
+    .even-columns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
